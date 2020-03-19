@@ -6,7 +6,7 @@
  - 目录（整个我的Github代码仓库的索引，让大家更方便找到自己需要的）
  - 常用到的一些基础知识
     - Git使用
-    - Markdown部分常用语法
+    - [Markdown部分常用语法](https://github.com/DamonAmber/README/tree/master/MarkdownNote)
  
  ### 我的代码仓库里会有些什么
  - 知识分享
