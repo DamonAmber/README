@@ -11,4 +11,6 @@
  - 前端程序员（基于NodeJS提供的全栈能力）
  - VLoger（抖音账号是：BerBer家的Damon 抖音号：1072108821）
  - 一个自媒体人（微信文章Author）微信公众号是：“和BerBer的日常”（扫描下方二维码可直接关注）
-![和BerBer的日常](https://github.com/DamonAmber/README/imagesForGithub/qrcode.jpg)
+
+ 
+![和BerBer的日常](https://github.com/DamonAmber/README/raw/master/imagesForGithub/qrcode.jpg)
