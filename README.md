@@ -4,13 +4,25 @@
 
  ### 这个ReadMe里有什么
  - 目录（整个我的Github代码仓库的索引，让大家更方便找到自己需要的）
+ - 常用到的一些基础知识
+    - Git使用
+    - Markdown部分常用语法
+ 
+ ### 我的代码仓库里会有些什么
  - 知识分享
+    - HTML
+    - CSS
+    - JavaScript（ECMA Script）
+    - 算法（ES描述实现）
  - 有用的代码项目开源
 
  ### 我是一个什么人呢
  - 前端程序员（基于NodeJS提供的全栈能力）
- - VLoger（抖音账号是：BerBer家的Damon 抖音号：1072108821）
- - 一个自媒体人（微信文章Author）微信公众号是：“和BerBer的日常”（扫描下方二维码可直接关注）
+ - VLoger（抖音账号是：`BerBer家的Damon` 抖音号：`1072108821`）
+ - 业余插画师（站酷个人主页：https://www.zcool.com.cn/u/17023911 ）
+ - 一个自媒体人（微信文章Author）微信公众号是：“`和BerBer的日常`”（扫描下方二维码可直接关注）
+ - 我的联系方式Email：`85449530@qq.com` 或 `2833406588@qq.com`
 
- 
+
 ![和BerBer的日常](https://github.com/DamonAmber/README/raw/master/imagesForGithub/qrcode.jpg)
+
