@@ -12,7 +12,7 @@
  - 知识分享
     - HTML
     - CSS
-    - JavaScript（ECMA Script）
+    - [JavaScript（ECMA Script）](https://github.com/DamonAmber/README/tree/master/JavaScriptNote)
     - 算法（ES描述实现）
  - 有用的代码项目开源
 
