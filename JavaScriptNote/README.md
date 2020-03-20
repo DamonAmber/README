@@ -4,7 +4,7 @@
 ### JavaScript数据类型
 - 原始类型(Primitive type)
     - [数字](#number)
-    - 字符串
+    - [字符串](#string)
     - 布尔值
     - null
     - undefined
@@ -74,4 +74,7 @@ Infinity == -Infinity // false
     var y = 0.2 - 0.1 // 0.1
     x == y // false
     ```
+
+### <a id="string">文本</a>
+- 字符串（string）是一组由16[位](https://github.com/DamonAmber/README/tree/master/ComputerNote#bit)值组成的不可变的有序序列，每个字符通常来自于Unicode字符集。JS通过字符串来表示文本。字符串的长度（length）是其所含16位值的个数。
 ## JavaScript的垃圾回收机制
