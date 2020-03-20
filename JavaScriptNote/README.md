@@ -76,5 +76,37 @@ Infinity == -Infinity // false
     ```
 
 ### <a id="string">文本</a>
-- 字符串（string）是一组由16[位](https://github.com/DamonAmber/README/tree/master/ComputerNote#bit)值组成的不可变的有序序列，每个字符通常来自于Unicode字符集。JS通过字符串来表示文本。字符串的长度（length）是其所含16位值的个数。
+- 字符串（string）是一组由16[位](https://github.com/DamonAmber/README/tree/master/ComputerNote#bit)值组成的不可变的有序序列，每个字符通常来自于Unicode字符集。JS通过字符串来表示文本。字符串的长度（length）是其所含16位值的个数。（使用十六进制表示十六位数为0x0000 ~ 0xFFFF)
+- 字符集、内码、字符串：最常用的Unicode字符，都是通过16位的内码表示的，并代表字符串中的单个字符，不能表示为16位的Unicode字符则遵循UTF-16编码规则——用两个16位值组成一个序列（也叫作“代理项对”）表示。意味着一个长度为2的JS字符串，有可能表示一个Unicode字符。
+- 转义字符 \ (常用转义字符表如下)
+
+ | 转义字符 | 含义       |
+ | -------- | ---------- |
+ | \o       | nul字符    |
+ | \b       | 退格符     |
+ | \t       | 水平制表符 |
+ | \n       | 换行符     |
+ | \v       | 垂直制表符 |
+ | \f       | 换页符     |
+ | \r       | 回车符     |
+- 字符串的使用（字符串的方法,`var s = "hello, world"`）：
+    - s.charAt(0) // "h" 取第几个字符
+    - s.subtring(1,4) // "ell" 取第几到第几个字符
+    - s.slice(1,4) // 同上
+    - s.slice(-3) // "rld" 取倒数三个字符
+    - s.indexOf("l") // 2 取l首次出现的位置
+    - s.lastIndexOf("l") // 10 取l最后一次出现的位置
+    - s.indexOf("l", 3) // 3 在位置3及之后首次出现字符l的位置
+    - s.split(", ") // ["hello", "world"] 分割成子串
+    - s.replace("h", "H") // "Hello, world" 替换第一个匹配的字符
+    - s.toUpperCase() // "HELLO, WORLD" 全替换为大写
+- 字符串的只读：字符串可以通过方括号来访问其中单个字符，但是对字符的更改不会影响到原字符串。
+```
+var a = 'abc'
+a[0] // 'a'
+a[0] = 'qwerty' // 'qwerty'
+a // 'abc'
+```
+- 模式匹配：JS定义了RegExp( )构造函数，用来创建文本匹配模式对象。这些模式成为“正则表达式”（regular expression）
+
 ## JavaScript的垃圾回收机制
